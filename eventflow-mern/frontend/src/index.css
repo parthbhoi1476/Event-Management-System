@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .input-style {
+    @apply w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-sky-400 transition text-gray-800 bg-white;
+  }
+  .error-text {
+    @apply text-red-500 text-sm mt-1;
+  }
+}
